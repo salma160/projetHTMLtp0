@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulaire</h1>
+    </header>
+    <main>
+        <section id="form">
+            <form action=""></form>
+
+            <br>
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" placeholder="Entrez votre nom">
+            <br><br><br>
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" placeholder="Entrez votre prénom">
+            <br><br><br>
+            <label for="age">Age</label>
+            <input type="number" value="18" id="age">
+            <br><br><br>
+            <div>
+                <label for="pays">Pays</label>
+                <select id="pays">
+                    <option selected="selected" value="pays">Maroc</option>
+                    <option value="pays">France</option>
+                    <option value="pays">Suisse</option>
+                    <option value="pays">Canda</option>
+                    <option value="pays">Afrique du Nord</option>
+                    <option value="pays">Afrique du Sud</option>
+
+
+                </select>
+                <br><br><br>
+                <div>
+                    <input type="radio" id="etudiant">
+                    <label for="etudiant">Etudiant.e</label>
+                    <input type="radio" id="prof">
+                    <label for="prof">Professeur</label>
+                    <input type="radio" id="Bachelier">
+                    <label for="Bachelier">Bachelier.e</label>
+                    <input type="radio" id="autre">
+                    <label for="autre">Autre</label>
+                </div>
+
+                <br><br><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Saisissez vore email">
+                <br><br><br>
+                <div>
+                    <p>Avez - vous déjà de l'expérience en développement web?</p>
+                    <br>
+                    <input type="checkbox" name="check" id="oui">
+                    <label for="oui">Oui</label>
+                    <input type="checkbox" name="check" id="non">
+                    <label for="">Non</label>
+                </div>
+                <div>
+                    <br>
+                    <br>
+                    <br>
+
+                    <textarea placeholder="Ajoutez vos commentaires" cols="30" rows="10"></textarea>
+                </div>
+                <input type="submit" value="Envoyez le formulaire">
+
+
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
