@@ -7,22 +7,33 @@
     <title>MonSiteTP1</title>
     <!-- icone de l'anglet -->
     <link rel="shortcut icon" href="/ressources/images/logo_head.png">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
 
-    <!-- pour naviger -->
-    <nav>
-        <!-- on utilise les unorder list -->
-        <ul> <!--on annonce les listes -->
-            <li><a href="#acceuil">Acceuil</a></li>
-            <li><a href="#presentation">Presentation HTML et CSS</a></li>
-            <li><a href="#lien">Liens utiles</a></li>
-
-        </ul>
+    </ul>
     </nav>
     <header>
+        <nav>
+            <ul>
+
+                <li><a href="#presentation">Presentation HTML et CSS</a></li>
+                <li><a href="#lien">Liens utiles</a></li>
+                <li><a href="formulaire.php">Formulaire de contact</a></li>
+                <li><a href="multiplication.php">Calcul table de multiplication de 4</a></li>
+                <li><a href="multiplications.php">Calcul tables de multiplication de 0 à 10</a></li>
+                <li><a href="mois.php">mois</a></li>
+                <li><a href="eau.php">eau</a></li>
+
+
+            </ul>
+        </nav>
+
+
+
+    </header>
+    <main>
         <section id="acceuil">
 
             <h1>Acceuil </h1>
@@ -37,10 +48,6 @@
 
         </section>
         <br><br>
-
-
-    </header>
-    <main>
         <section id="presentation">
             <h2>Présentation HTML et CSS</h2>
             <nav>
@@ -75,20 +82,13 @@
             </div>
 
         </section>
-        <br><br>
-        <!-- ici formulaire -->
-        <div>
-            <p><em>Si vous êtes intéressés par ce duo,veuillez remplir le formulaire:</em></p>
-        </div>
-        <br>
-        <a href="./formulaire.html">Lien Formulaire</a>
-
 
     </main>
     <footer>
-        <br><br><br><br>
+        <br><br><br>
         <section id="lien">
             <h5>Liens utiles à apprécier</h5>
+            <br>
             <div>
                 <ul>
                     <li><a href="https://htmlcheatsheet.com" target="_blank">Coup de pouce HTML</a></li>
